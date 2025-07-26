@@ -1,0 +1,22 @@
+{
+  "name": "sec-mining-protocol",
+  "version": "1.0.0",
+  "description": "Mine semantic alpha from SEC filings",
+  "main": "mine-sec.js",
+  "scripts": {
+    "start": "node mine-sec.js",
+    "demo": "node alice-bob-sec.js",
+    "monitor": "node edgar-api.js",
+    "types": "node filing-types.js"
+  },
+  "keywords": [
+    "sec",
+    "edgar",
+    "semantic",
+    "mining",
+    "mev",
+    "arbitrage"
+  ],
+  "dependencies": {},
+  "license": "MIT"
+}
